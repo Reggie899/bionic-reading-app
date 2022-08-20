@@ -21,8 +21,6 @@ encodedParams.append("fixation", "1");
 encodedParams.append("saccade", "10");
 
 
-
-
 const options = {
   method: "POST",
   url: "https://bionic-reading1.p.rapidapi.com/convert",

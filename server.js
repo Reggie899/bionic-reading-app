@@ -8,7 +8,7 @@ server.use(cors());
 
 server.use(express.json()); 
 const router = express.Router();
-import test from "./routes/testroute.js"
+import test from "./testroute.js"
 
 
 server.use('/', test);
