@@ -44,7 +44,7 @@ axios
 console.log(dataResult);
 
 export const hello = (req, res) => {
-  res.status(200).json(dataResult);
+  res.status(200).json("dataResult");
 };
 
 router.get("/hello", hello);
